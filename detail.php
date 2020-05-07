@@ -54,6 +54,7 @@ $preference->notification_url = $url_base."/webhooks.php";
 
 $preference->payment_methods = array(
     "excluded_payment_types" => array(
+        array ( "id" => "ticket" ),
         array("id"  =>  "atm")
     ),
     "excluded_payment_methods" => array(
